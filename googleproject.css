@@ -136,21 +136,54 @@ nav
 {
 	display: flex;
 	flex-direction: column;
+	font-family: Arial, sans-serif, Verdana, Impact;
+	font-size: small;
 	background: #f2f2f2;
 	position: absolute;
 	bottom:0;
 	width:100%;
-	padding-top:50px;
-	height:82px;
 	overflow: hidden;
+	line-height: 40px;
 
 }
 
 
 .pays
 {
-	color: red;
+	display: flex;
+	color: rgba(0,0,0,0.54);
+	height: 41;
+	margin-left: 27px;
+	text-align: left;
+	border-top: 1px solid #e4e4e4;
 }
 
+.liens
+{
+	display: flex;
+	justify-content: center;
+	color: rgba(0,0,0,0.54);
+	height: 41;
+	padding-left: 27px;
+}
 
+.liens2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 30px;
+	border-top: 1px solid #e4e4e4;
+}
 
+.part1
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.part2
+{
+	display: flex;
+	flex-direction: row;
+}
